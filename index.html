@@ -7,29 +7,264 @@
    <link rel="stylesheet" href="./css/normalize.min.css">
    <link rel="stylesheet" href="./css/main.css">
    <!-- <link rel="stylesheet" href="./css/main.min.css"> -->
-   <title>Document</title>
+   <title>Sunnyside</title>
 </head>
 <body>
    
-   <!-- SITE HEADER START -->
+   <!-- Site header start -->
    <header class="site-header">
+      <a class="logo" href="index.html">
+         <img class="logo__img" src="./images/site-logo.svg" alt="Site logo image" width="170" height="33">
+      </a>
       
+      <div class="site-header__links-wrapper">
+         <div class="triangel"></div>
+         <nav class="nav">
+            <ul class="nav__list">
+               <li class="nav__item">
+                  <a class="nav__link" href="#">About</a>
+               </li>
+               
+               <li class="nav__item">
+                  <a class="nav__link" href="#">Services</a>
+               </li>
+               
+               <li class="nav__item">
+                  <a class="nav__link" href="#">Projects</a>
+               </li>
+            </ul>
+         </nav>
+         
+         <a class="site-header__link" href="#">Contact</a>
+      </div>
+      
+      <button class="burger-btn js-open-navbar"></button>
    </header>
-   <!-- SITE HEADER FINISH -->
+   <!-- Site header finish -->
    
-   <!-- SITE MAIN START -->
+   <!-- Site main start -->
    <main class="site-main">
       
+      <!-- Site hero start -->
+      <section class="hero">
+         <div class="hero__inner">
+            <h1 class="visually-hidden">Sunnyside for you</h1>
+            <h2 class="hero__heading">We are creatives</h2>
+            <a class="hero__arrow-link" href="#services"><img class="hero__arrow-img" src="./images/arrow-down.svg" alt="Arrow down link"></a>
+         </div>
+      </section>
+      <!-- Site hero finish -->
+      
+      <!-- Services section start -->
+      <section class="services" id="services">
+         <h2 class="visually-hidden">Services</h2>
+         <div class="services__inner">
+            <ul class="services__list">
+               <li class="services__item">
+                  <picture>
+                     <source media="(min-width: 768px)" srcset="./images/tuxum-desctop.jpg 1x, ./images/tuxum-desctop@2x.jpg 2x">
+                     
+                     <source media="(min-width: 375px)" srcset="./images/tuxum-mobile.jpg 1x, ./images/tuxum-mobile@2x.jpg 2x">
+                     
+                     <img class="services__item-img" src="./images/tuxum-mobile.jpg" width="375" height="282"
+                     srcset="./images/tuxum-mobile.jpg 1x, ./images/tuxum-mobile@2x.jpg 2x" alt="The egg">
+                  </picture>
+                  
+                  <div class="services__item-texts-wrapper">
+                     <div class="services__item-texts">
+                        <h3 class="services__item-heading">Transform your brand</h3>
+                        <p class="services__item-desc">
+                           We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.
+                        </p>
+                        <a class="services__item-link" href="#">Learn more</a>
+                     </div>
+                  </div>
+               </li>
+               
+               <li class="services__item">
+                  <picture>
+                     <source media="(min-width: 768px)" srcset="./images/stakan-desctop.jpg 1x, ./images/stakan-desctop@2x.jpg 2x">
+                     
+                     <source media="(min-width: 375px)" srcset="./images/stakan-mobile.jpg 1x, ./images/stakan-mobile@2x.jpg 2x">
+                     
+                     <img class="services__item-img" src="./images/stakan-mobile.jpg" srcset="./images/stakan-mobile.jpg 1x, ./images/stakan-mobile@2x.jpg 2x" alt="Red bottle">
+                  </picture>
+                  <div class="services__item-texts-wrapper">
+                     <div class="services__item-texts">
+                        <h3 class="services__item-heading">Stand out to the right audience</h3>
+                        <p class="services__item-desc">
+                           Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. 
+                        </p>
+                        
+                        <a class="services__item-link" href="#">Learn more</a>
+                     </div>
+                  </div>
+               </li>
+               
+               <li class="services__item">
+                  <div class="services__item-start">
+                     <div class="services__item-start-texts">
+                        <h3 class="services__item-start-heading">
+                           Graphic Design
+                        </h3>
+                        <p class="services__item-start-desc">
+                           Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.
+                        </p>
+                     </div>
+                  </div>
+                  
+                  <div class="services__item-end">
+                     <div class="services__item-end-texts">
+                        <h3 class="services__item-end-heading">Photography</h3>
+                        <p class="services__item-end-desc">
+                           Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
+                        </p>
+                     </div>
+                  </div>
+               </li>
+            </ul>
+         </div>
+      </section>
+      <!-- Services section finish -->
+      
+      <!-- Team section start -->
+      <section class="team">
+         <div class="team__inner">
+            <h2 class="team__heading">Client testimonials</h2>
+            <ul class="team__list">
+               <li class="team__item">
+                  <div class="team__item-texts">
+                     <p class="team__item-text">
+                        We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
+                     </p>
+                     <strong class="team__item-name">Emily R.</strong>
+                     <p class="team__item-job">Marketing Director</p>
+                  </div>
+               </li>
+               
+               <li class="team__item">
+                  <div class="team__item-texts">
+                     <p class="team__item-text">
+                        We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
+                     </p>
+                     <strong class="team__item-name">Emily R.</strong>
+                     <p class="team__item-job">Marketing Director</p>
+                  </div>
+               </li>
+               
+               <li class="team__item">
+                  <div class="team__item-texts">
+                     <p class="team__item-text">
+                        We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
+                     </p>
+                     <strong class="team__item-name">Emily R.</strong>
+                     <p class="team__item-job">Marketing Director</p>
+                  </div>
+               </li>
+            </ul>
+         </div>
+      </section>
+      <!-- Team section finish -->
+      
+      <!-- Foods section start -->
+      <section class="foods">
+         <ul class="foods__list">
+            <li class="foods__item">
+               <picture>
+                  <source media="(min-width: 768px)" srcset="./images/kefir-desctop.jpg 1x, ./images/kefir-desctop@2x.jpg 2x">
+                  
+                  <img class="foods__item-img" src="./images/kefir-mobile.jpg" srcset="./images/kefir-mobile.jpg 1x, ./images/kefir-mobile@2x.jpg 2x" alt="Kefir" width="188" height="188">
+               </picture>
+            </li>
+            
+            <li class="foods__item">
+               <picture>
+                  <source media="(min-width: 768px)" srcset="./images/apelsin-desctop.jpg 1x, ./images/apelsin-desctop@2x.jpg 2x">
+                  
+                  <img class="foods__item-img" src="./images/aplesin-mobile.jpg" srcset="./images/aplesin-mobile.jpg 1x, ./images/apelsin-mobile@2x.jpg 2x" alt="Kefir" width="188" height="188">
+               </picture>
+            </li>
+            
+            <li class="foods__item">
+               <picture>
+                  <source media="(min-width: 768px)" srcset="./images/noncha-desctop.jpg 1x, ./images/noncha-desctop@2x.jpg 2x">
+                  
+                  <img class="foods__item-img" src="./images/noncha-mobile.jpg" srcset="./images/noncha-mobile.jpg 1x, ./images/noncha-mobile@2x.jpg 2x" alt="Kefir" width="188" height="188">
+               </picture>
+            </li>
+            
+            <li class="foods__item">
+               <picture>
+                  <source media="(min-width: 768px)" srcset="./images/qand-desctop.jpg 1x, ./images/qand-desctop@2x.jpg 2x">
+                  
+                  <img class="foods__item-img" src="./images/qand-mobile.jpg" srcset="./images/qand-mobile.jpg 1x, ./images/qand-mobile@2x.jpg 2x" alt="Kefir" width="188" height="188">
+               </picture>
+            </li>
+         </ul>
+      </section>
+      <!-- Foods section finish -->
    </main>
-   <!-- SITE MAIN FINISH -->
-
-   <!-- SITE FOOTER START -->
+   <!-- Site main finish -->
+   
+   <!-- Site footer start -->
    <footer class="site-footer">
-
+      <div class="site-footer__links">
+         <a class="site-footer__logo" href="#">
+            <img src="./images/site-footer-logo.svg" alt="Site logo" width="170" height="33">
+         </a>
+         
+         <ul class="site-footer__list">
+            <li class="site-footer__item">
+               <a class="site-footer-link" href="#">About</a>
+            </li>
+            
+            <li class="site-footer__item">
+               <a class="site-footer-link" href="#"> Services</a>
+            </li>
+            
+            <li class="site-footer__item">
+               <a class="site-footer-link" href="#">Projects</a>
+            </li>
+         </ul>
+         
+         <ul class="site-footer__logo-list">
+            <li class="site-footer__logo-item">
+               <a class="site-footer__logo-link" href="https://www.facebook.com/" target="blank">
+                  <svg width="20" height="20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                     <path d="M18.896 0H1.104C.494 0 0 .494 0 1.104v17.793C0 19.506.494 20 1.104 20h9.58v-7.745H8.076V9.237h2.606V7.01c0-2.583 1.578-3.99 3.883-3.99 1.104 0 2.052.082 2.329.119v2.7h-1.598c-1.254 0-1.496.597-1.496 1.47v1.928h2.989l-.39 3.018h-2.6V20h5.098c.608 0 1.102-.494 1.102-1.104V1.104C20 .494 19.506 0 18.896 0Z" fill="currentColor"/>
+                  </svg>
+               </a>
+            </li>
+            
+            <li class="site-footer__logo-item">
+               <a class="site-footer__logo-link" href="https://www.instagram.com/" target="blank">
+                  <svg width="20" height="20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                     <path fill-rule="evenodd" clip-rule="evenodd" d="M10 0C7.284 0 6.944.012 5.878.06 2.246.227.228 2.242.06 5.877.01 6.944 0 7.284 0 10s.012 3.057.06 4.123c.167 3.632 2.182 5.65 5.817 5.817 1.067.048 1.407.06 4.123.06s3.057-.012 4.123-.06c3.629-.167 5.652-2.182 5.816-5.817.05-1.066.061-1.407.061-4.123s-.012-3.056-.06-4.122C19.777 2.249 17.76.228 14.124.06 13.057.01 12.716 0 10 0Zm0 1.802c2.67 0 2.987.01 4.042.059 2.71.123 3.975 1.409 4.099 4.099.048 1.054.057 1.37.057 4.04 0 2.672-.01 2.988-.057 4.042-.124 2.687-1.387 3.975-4.1 4.099-1.054.048-1.37.058-4.041.058-2.67 0-2.987-.01-4.04-.058-2.717-.124-3.977-1.416-4.1-4.1-.048-1.054-.058-1.37-.058-4.041 0-2.67.01-2.986.058-4.04.124-2.69 1.387-3.977 4.1-4.1 1.054-.048 1.37-.058 4.04-.058ZM4.865 10a5.135 5.135 0 1 1 10.27 0 5.135 5.135 0 0 1-10.27 0ZM10 13.333a3.333 3.333 0 1 1 0-6.665 3.333 3.333 0 0 1 0 6.665Zm4.137-8.67a1.2 1.2 0 1 1 2.401 0 1.2 1.2 0 0 1-2.4 0Z" fill="currentColor"/>
+                  </svg>
+               </a>
+            </li>
+            
+            <li class="site-footer__logo-item">
+               <a class="site-footer__logo-link" href="https://twitter.com/" target="blank">
+                  <svg width="20" height="17" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                     <path d="M20 2.172a8.192 8.192 0 0 1-2.357.646 4.11 4.11 0 0 0 1.805-2.27 8.22 8.22 0 0 1-2.606.996A4.096 4.096 0 0 0 13.847.248c-2.65 0-4.596 2.472-3.998 5.038A11.649 11.649 0 0 1 1.392.999a4.109 4.109 0 0 0 1.27 5.478 4.086 4.086 0 0 1-1.858-.513c-.045 1.9 1.318 3.679 3.291 4.075a4.114 4.114 0 0 1-1.853.07 4.106 4.106 0 0 0 3.833 2.849A8.25 8.25 0 0 1 0 14.658a11.616 11.616 0 0 0 6.29 1.843c7.618 0 11.922-6.434 11.663-12.205A8.353 8.353 0 0 0 20 2.172Z" fill="currentColor"/>
+                  </svg>
+               </a>
+            </li>
+            
+            <li class="site-footer__logo-item">
+               <a class="site-footer__logo-link" href="https://ru.pinterest.com/" target="blank">
+                  <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                     <path d="M10 0C4.4775 0 0 4.47667 0 10C0 14.2367 2.63583 17.855 6.35583 19.3117C6.26833 18.5208 6.18917 17.3075 6.39083 16.4442C6.5725 15.6633 7.56333 11.4733 7.56333 11.4733C7.56333 11.4733 7.26417 10.8742 7.26417 9.98833C7.26417 8.59833 8.07 7.56 9.07333 7.56C9.92583 7.56 10.3383 8.20083 10.3383 8.96833C10.3383 9.82583 9.7925 11.1083 9.51 12.2975C9.27417 13.2925 10.0092 14.105 10.9908 14.105C12.7683 14.105 14.1342 12.2308 14.1342 9.52583C14.1342 7.13167 12.4142 5.4575 9.9575 5.4575C7.1125 5.4575 5.4425 7.59167 5.4425 9.79667C5.4425 10.6558 5.77333 11.5783 6.18667 12.0783C6.26833 12.1775 6.28 12.265 6.25583 12.3658L5.97833 13.4992C5.93417 13.6825 5.83333 13.7217 5.64333 13.6333C4.39417 13.0517 3.61333 11.2258 3.61333 9.75917C3.61333 6.605 5.905 3.7075 10.2208 3.7075C13.69 3.7075 16.3858 6.18 16.3858 9.48333C16.3858 12.93 14.2133 15.7033 11.1967 15.7033C10.1833 15.7033 9.23083 15.1775 8.905 14.555L8.28167 16.9325C8.05583 17.8017 7.44667 18.8908 7.03833 19.5542C7.975 19.8433 8.96917 20 10 20C15.5225 20 20 15.5225 20 10C20 4.47667 15.5225 0 10 0Z" fill="currentColor"/>
+                  </svg>
+               </a>
+            </li>
+         </ul>
+      </div>
    </footer>
-   <!-- SITE FOOTER FINISH -->
-
-
+   <!-- Site footer finish -->
+   
+   
    <script src="./js/main.js"></script>
 </body>
 </html>
